@@ -1,0 +1,4 @@
+﻿
+			services.AddTransient<IRepository<@-Model-@>, Repository<@-Model-@>>();
+            services.AddTransient<@-Model-@Repo>();
+			/*@Repo@*/

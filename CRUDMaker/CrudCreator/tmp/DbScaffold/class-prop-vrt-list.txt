@@ -1,0 +1,3 @@
+[InverseProperty("@-Origin-@")]
+        public virtual ICollection<@-Type-@> @-Var-@ { get; set; }
+		@-VrtListProp-@

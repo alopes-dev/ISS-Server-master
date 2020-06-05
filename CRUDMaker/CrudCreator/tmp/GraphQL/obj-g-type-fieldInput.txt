@@ -1,0 +1,2 @@
+﻿Field<@-Type-@Type@-Extra-@>("@-Var-@");
+			/*@FieldInput@*/

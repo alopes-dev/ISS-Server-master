@@ -1,0 +1,92 @@
+using ISWebLib.Api;
+using ISWebLib.DIServices;
+using ISWebLib.Models;
+using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace ISWebApp.Api
+{
+    [Route(ApiRoutes.BaseRoute)]
+    [ApiController]
+    public class @--Model--@Controller : ControllerBase
+    {
+        #region Private Members
+        private readonly IApiManager _apiManager;
+        #endregion
+
+        #region Constructor
+        /// <summary>
+        /// Constructor padrão.
+        /// </summary>
+        public @--Model--@Controller(IApiManager apiManager)
+        {
+            _apiManager = apiManager;
+        }
+        #endregion
+
+		#region Actions ( @--Model--@ )
+        /// <summary>
+        /// Pegar todos os dados de @--Model--@.
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        public async Task<ApiResponse<IEnumerable<@--Model--@>>> @--Model--@()
+            => await _apiManager.GetListAsync<@--Model--@>();
+
+        /// <summary>
+        /// Pegar um o dado de @--Model--@.
+        /// </summary>
+        /// <param name="@--Var--@Id">Id do dado @--Model--@</param>
+        /// <returns></returns>
+        [HttpGet("{@--Var--@Id}")]
+        public async Task<ApiResponse<@--Model--@>> @--Model--@(string @--Var--@Id)
+            => await _apiManager.GetAsync<@--Model--@>(@--Var--@Id);
+
+        /// <summary>
+        /// Criar uma @--Model--@.
+        /// </summary>
+        /// <param name="model">O model postado</param>
+        /// <returns></returns>
+        [HttpPost]
+        public async Task<ApiResponse<@--Model--@>> @--Model--@([FromBody]@--Model--@ model)
+        {
+            if (!ModelState.IsValid)
+                return new ApiResponse<@--Model--@> { Data = model, Info = "Verifique os dados enviados."};
+
+            return await _apiManager.AddAsync(model);
+        }
+
+        /// <summary>
+        /// Actualizar / Renovar @--Model--@.
+        /// </summary>
+        /// <param name="@--Var--@Id">Id do dado @--Model--@</param>
+        /// <param name="model">O model postado</param>
+        /// <returns></returns>
+        [HttpPut("{@--Var--@Id}")]
+        public async Task<ApiResponse<@--Model--@>> @--Model--@(string @--Var--@Id, [FromBody]@--Model--@ model)
+        {
+            if (!ModelState.IsValid)
+                return new ApiResponse<@--Model--@> { Info = "Verifique os dados enviados."};
+
+            return await _apiManager.UpdateAsync(model, @--Var--@Id);
+        }
+
+        /// <summary>
+        /// Deletar @--Model--@.
+        /// </summary>
+        /// <param name="@--Var--@Id">Id do dado @--Model--@</param>
+        /// <returns></returns>
+        [HttpDelete("{@--Var--@Id}")]
+        public async Task<IActionResult> Deletar@--Model--@(string @--Var--@Id)
+        {
+            var result = await _apiManager.DeleteAsync<@--Model--@>(@--Var--@Id);
+            if (!result)
+                return BadRequest(new ApiResponse { Info = "Algum erro ocorreu." });
+            return NoContent();
+        } 
+        #endregion
+		
+@--Add-Here--@
+    }
+}

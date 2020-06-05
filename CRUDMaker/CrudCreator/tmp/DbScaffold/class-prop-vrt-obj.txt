@@ -1,0 +1,4 @@
+[ForeignKey("@-Key-@")]
+		[InverseProperty("@-Origin-@")]
+        public virtual @-Type-@ @-Var-@ { get; set; }
+		@-VrtProp-@

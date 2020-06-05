@@ -1,0 +1,2 @@
+﻿FieldAsync<@-Model-@Type>("@-Var-@", resolve: async c => c.Resolve(await c.GetRepository().GetAsync<@-Model-@>(c.Source.@-Var-U-@)));
+            /*@Field@*/

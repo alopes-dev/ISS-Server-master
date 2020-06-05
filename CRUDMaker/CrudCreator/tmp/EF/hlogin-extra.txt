@@ -1,0 +1,5 @@
+
+
+        [ForeignKey("UsuarioId")]
+        [InverseProperty("HistoricoLogin")]
+        public virtual Usuario Usuario { get; set; }

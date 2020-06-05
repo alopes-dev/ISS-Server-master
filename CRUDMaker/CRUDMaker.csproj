@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>CrudMaker</RootNamespace>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="CrudCreator\out\types\**" />
+    <EmbeddedResource Remove="CrudCreator\out\types\**" />
+    <None Remove="CrudCreator\out\types\**" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="CrudCreator\out\Models\" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="linq2db" Version="2.9.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\ISS.Application\ISS.Application.csproj" />
+  </ItemGroup>
+
+</Project>

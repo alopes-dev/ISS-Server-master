@@ -1,0 +1,337 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Net;
+using ISS.Application.Dto;
+using Microsoft.Extensions.FileProviders;
+using Microsoft.Extensions.Primitives;
+
+namespace FileSystem.FileSystem
+{
+    public class FileSystemT:IFileInfo,IFileProvider
+    {
+      
+        public string PhysicalPath => throw new NotImplementedException();
+
+        public string Path { get; }
+
+        public string Name => System.IO.Path.GetFileName(Path);
+
+        public bool Exists => File.Exists(Path) || Directory.Exists(Path);
+
+        public long Length => Exists && !IsDirectory ? new FileInfo(Path).Length : -1;
+
+        public DateTime ModifiedOn => !string.IsNullOrEmpty(Path) ? File.GetLastWriteTime(Path) : default;
+
+        public bool IsDirectory => Directory.Exists(Path);
+
+        public DateTimeOffset LastModified => throw new NotImplementedException();
+
+        // public Stream CreateReadStream()
+        // {
+        //    return
+        //     IsDirectory
+        //         ? throw new InvalidOperationException($"Não é possível abrir '{Path}' para leitura porque é um diretório.")
+        //         : Exists
+        //             ? File.OpenRead(Path)
+        //             : throw new InvalidOperationException($"Não é possível abrir '{Path}' para leitura porque o arquivo não existe.");
+        //  }
+
+        public string UploadFile(FileSyst FileD)
+        {
+            if (CheckFile(FileD.url) == true)
+            {
+                try
+                {
+                    FtpWebRequest request = (FtpWebRequest)WebRequest.Create("ftp://172.16.16.84/PessoaDocumento/" + FileD.url + "/" + FileD.fileName + "." + FileD.fileExtensao + "");
+                    request.Method = WebRequestMethods.Ftp.UploadFile;
+                    request.Credentials = new NetworkCredential("administrator", "hotelh.123");
+                    byte[] bytes = System.IO.File.ReadAllBytes("D:/Nada/Tesseract/pdf/" + FileD.fileName);
+                    request.ContentLength = bytes.Length;
+                    using (Stream request_stream = request.GetRequestStream())
+                    {
+                        request_stream.Write(bytes, 0, bytes.Length);
+                        request_stream.Close();
+                    }
+                    return ($"O Arquivo Criado Com sucesso {FileD.fileName}");
+                }
+                catch
+                {
+                    throw;
+                }
+            }
+            else
+            {
+                   var newDir= CreateDir(FileD.url);
+                try 
+                {
+                    FtpWebRequest request = (FtpWebRequest)WebRequest.Create("ftp://172.16.16.84/PessoaDocumento/" +newDir+ "/" + FileD.fileName + "." + FileD.fileExtensao + "");
+                    request.Method = WebRequestMethods.Ftp.UploadFile;
+                    request.Credentials = new NetworkCredential("administrator", "hotelh.123");
+                    byte[] bytes = System.IO.File.ReadAllBytes("D:/Nada/Tesseract/pdf/" + FileD.fileName+"."+FileD.fileExtensao);
+                    request.ContentLength = bytes.Length;
+                    using (Stream request_stream = request.GetRequestStream())
+                    {
+                        request_stream.Write(bytes, 0, bytes.Length);
+                        request_stream.Close();
+                    }
+                    return ($"O Arquivo Criado Com sucesso {FileD.fileName}");
+                }
+                catch
+                {
+                    throw;
+                }
+            }
+
+        }
+        public string DownloadFile(FileSyst FileD)
+        {
+            if (CheckFile(FileD.url) == true)
+            {
+                try
+                {
+                    FtpWebRequest request = (FtpWebRequest)WebRequest.Create("ftp://172.16.16.84/"+FileD.url+"/"+FileD.fileName+"."+FileD.fileExtensao);
+                    request.Method = WebRequestMethods.Ftp.DownloadFile;
+                    request.Credentials = new NetworkCredential("administrator", "hotelh.123");
+                    request.UsePassive = true;
+                    request.UseBinary = true;
+                    request.KeepAlive = true;
+                    FtpWebResponse response = (FtpWebResponse)request.GetResponse();
+                    Stream responseStream = response.GetResponseStream();
+                    byte[] buffer = new byte[2048];
+                    FileStream newFile = new FileStream(FileD.urlDownload + "/" +FileD.fileName, FileMode.Create);
+                    int readCount = responseStream.Read(buffer, 0, buffer.Length);
+                    while (readCount > 0)
+                    {
+                        newFile.Write(buffer, 0, readCount);
+                        readCount = responseStream.Read(buffer, 0, buffer.Length);
+                    }
+                    newFile.Close();
+                    responseStream.Close();
+                    response.Close();
+                    return ($"Download Complete, status {response.StatusDescription}");
+                }
+                catch
+                {
+                    throw;
+                }
+            }
+            else
+            {
+                return ($"O Arquivo que Voce Pertende Fazer Download Nao Existe");
+            }
+
+        }
+        public string RemoverFile(FileSyst FileD)
+        {
+            FtpWebRequest ftpRequest = (FtpWebRequest)FtpWebRequest.Create("ftp://172.16.16.84/" + FileD.url + "/" + FileD.fileName + "." + FileD.fileExtensao);
+            ftpRequest.Method = WebRequestMethods.Ftp.DeleteFile;
+            ftpRequest.Credentials = new NetworkCredential("administrator", "hotelh.123");
+            FtpWebResponse ftpResponse = (FtpWebResponse)ftpRequest.GetResponse();
+            return ("Removido Com sucesso");
+
+        }
+        public string GetFile()
+        {
+            List<string> liArquivos = new List<string>();
+            FtpWebRequest request = (FtpWebRequest)WebRequest.Create("ftp://servidor.com.br/images/");
+            request.Method = WebRequestMethods.Ftp.ListDirectory;
+            request.Credentials = new NetworkCredential("usuario", "senha");
+            request.UsePassive = true;
+            request.UseBinary = true;
+            request.KeepAlive = true;
+            using (FtpWebResponse response = (FtpWebResponse)request.GetResponse())
+            {
+                Stream responseStream = response.GetResponseStream();
+                using (StreamReader reader = new StreamReader(responseStream))
+                {
+                    liArquivos = reader.ReadToEnd().Split(Environment.NewLine.ToCharArray(), StringSplitOptions.RemoveEmptyEntries).ToList<string>();
+                }
+            }
+            foreach (string item in liArquivos)
+            {
+                return (item + "<br />");
+            }
+            return (liArquivos +"<br>");
+        }
+        public string CreateDir(string dirName)
+        {
+            if(CheckFile(dirName)==true)
+            {
+                 return("Directorio Ja existe");
+            }
+            else
+            {
+            FtpWebRequest ftpRequest = (FtpWebRequest)FtpWebRequest.Create("ftp://172.16.16.84/"+dirName);
+            ftpRequest.Method = WebRequestMethods.Ftp.MakeDirectory;
+            ftpRequest.Credentials = new NetworkCredential("administrator", "hotelh.123");
+            FtpWebResponse ftpResponse = (FtpWebResponse)ftpRequest.GetResponse();
+            return ($"O Directorio {dirName} Foi Criado Com Sucesso");
+            }
+        }
+        public bool CheckFile(string url)
+        {
+            var request = (FtpWebRequest)WebRequest.Create("ftp://172.16.16.84/" +url);
+            request.Credentials = new NetworkCredential("administrator", "hotelh.123");
+            request.Method = WebRequestMethods.Ftp.GetFileSize;
+            try
+            {
+                FtpWebResponse response = (FtpWebResponse)request.GetResponse();
+                return true;
+            }
+            catch (WebException ex)
+            {
+                FtpWebResponse response = (FtpWebResponse)ex.Response;
+                if (response.StatusCode == FtpStatusCode.ActionNotTakenFileUnavailable)
+                    return false;
+            }
+            return false;
+        }
+
+
+        public IFileInfo GetFileInfo(string subpath)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IDirectoryContents GetDirectoryContents(string subpath)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IChangeToken Watch(string filter)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Stream CreateReadStream()
+        {
+            throw new NotImplementedException();
+        }
+    }
+}
+#region  (Check)
+        public bool checkDirType(string url, string user)
+        {
+            var request = (FtpWebRequest)WebRequest.Create($"ftp://172.16.16.84/PessoaDocumento/{user}/{url}");
+            request.Credentials = new NetworkCredential("administrator", "hotelh.123");
+            request.Method = WebRequestMethods.Ftp.GetFileSize;
+            try
+            {
+                FtpWebResponse response = (FtpWebResponse)request.GetResponse();
+                return true;
+            }
+            catch (WebException ex)
+            {
+                FtpWebResponse response = (FtpWebResponse)ex.Response;
+                if (response.StatusCode == FtpStatusCode.ActionNotTakenFileUnavailable)
+                    return false;
+            }
+            return false;
+        }
+        public bool checkDir(string url)
+        {
+            var request = (FtpWebRequest)WebRequest.Create($"ftp://172.16.16.84/PessoaDocumento/{url}");
+            request.Credentials = new NetworkCredential("administrator", "hotelh.123");
+            request.Method = WebRequestMethods.Ftp.GetFileSize;
+            try
+            {
+                FtpWebResponse response = (FtpWebResponse)request.GetResponse();
+                return true;
+            }
+            catch (WebException ex)
+            {
+                FtpWebResponse response = (FtpWebResponse)ex.Response;
+                if (response.StatusCode == FtpStatusCode.ActionNotTakenFileUnavailable)
+                    return false;
+            }
+            return false;
+        }
+        public bool CheckDirPrincipal(string url)
+        {
+            var request = (FtpWebRequest)WebRequest.Create($"ftp://172.16.16.84/{url}");
+            request.Credentials = new NetworkCredential("administrator", "hotelh.123");
+            request.Method = WebRequestMethods.Ftp.GetFileSize;
+            try
+            {
+                FtpWebResponse response = (FtpWebResponse)request.GetResponse();
+                return true;
+            }
+            catch (WebException ex)
+            {
+                FtpWebResponse response = (FtpWebResponse)ex.Response;
+                if (response.StatusCode == FtpStatusCode.ActionNotTakenFileUnavailable)
+                    return false;
+            }
+            return false;
+        }
+        #endregion
+        #region (create Dir)
+        public string CreateDirUser(string dirName, string user)
+        {
+            if (checkDirType(dirName, user) == true)
+            {
+                return ("Directorio Ja existe");
+            }
+            else
+            {
+                FtpWebRequest ftpRequest = (FtpWebRequest)FtpWebRequest.Create($"ftp://172.16.16.84/PessoaDocumento/{user}/{dirName}");
+                ftpRequest.Method = WebRequestMethods.Ftp.MakeDirectory;
+                ftpRequest.Credentials = new NetworkCredential("administrator", "hotelh.123");
+                FtpWebResponse ftpResponse = (FtpWebResponse)ftpRequest.GetResponse();
+                return ($"O Directorio {dirName} Foi Criado Com Sucesso");
+            }
+        }
+        public string CreateDir(string dirName)
+        {
+            if (checkDir(dirName) == true)
+            {
+                return ("Directorio Ja existe");
+            }
+            else
+            {
+                FtpWebRequest ftpRequest = (FtpWebRequest)FtpWebRequest.Create($"ftp://172.16.16.84/PessoaDocumento/{dirName}");
+                ftpRequest.Method = WebRequestMethods.Ftp.MakeDirectory;
+                ftpRequest.Credentials = new NetworkCredential("administrator", "hotelh.123");
+                FtpWebResponse ftpResponse = (FtpWebResponse)ftpRequest.GetResponse();
+                return ($"O Directorio {dirName} Foi Criado Com Sucesso");
+            }
+        }
+
+        public string CreateDirPrincipal(string dirName)
+        {
+            if (CheckDirPrincipal(dirName) == true)
+            {
+                return ("Directorio Ja existe");
+            }
+            else
+            {
+                FtpWebRequest ftpRequest = (FtpWebRequest)FtpWebRequest.Create($"ftp://172.16.16.84/{dirName}");
+                ftpRequest.Method = WebRequestMethods.Ftp.MakeDirectory;
+                ftpRequest.Credentials = new NetworkCredential("administrator", "hotelh.123");
+                FtpWebResponse ftpResponse = (FtpWebResponse)ftpRequest.GetResponse();
+                return ($"O Directorio {dirName} Foi Criado Com Sucesso");
+            }
+        }
+        #endregion
+
+private static void Download(string caminho)
+{
+    var request = (System.Net.FtpWebRequest)System.Net.WebRequest.Create("ftp://localhost/" + caminho);
+    request.Method = System.Net.WebRequestMethods.Ftp.DownloadFile;
+ 
+    request.Credentials = new System.Net.NetworkCredential("anonymous", "contato@andrealveslima.com.br");
+    var response = (System.Net.FtpWebResponse)request.GetResponse();
+ 
+    var responseStream = response.GetResponseStream();
+    using (var memoryStream = new System.IO.MemoryStream())
+    {
+        responseStream.CopyTo(memoryStream);
+        var conteudoArquivo = memoryStream.ToArray();
+        System.IO.File.WriteAllBytes(caminho, conteudoArquivo);
+    }
+ 
+    Console.WriteLine("Download Complete, status {0}", response.StatusDescription);
+    response.Close();
+}

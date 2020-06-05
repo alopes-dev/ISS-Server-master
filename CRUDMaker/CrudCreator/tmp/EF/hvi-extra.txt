@@ -1,0 +1,5 @@
+
+
+        [ForeignKey("UsuarioId")]
+        [InverseProperty("HistoricoVerificacaoIdentidade")]
+        public virtual Usuario Usuario { get; set; }

@@ -1,0 +1,4 @@
+﻿
+			services.AddScoped<@-Model-@Type>();
+            services.AddScoped<@-Model-@InputType>();
+			/*@Type@*/

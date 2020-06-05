@@ -1,0 +1,3499 @@
+﻿{
+   "ContextClassName": "ApplicationDbContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "DoNotCombineNamespace": false,
+   "IdReplace": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Modelss",
+   "ProjectRootNamespace": "ISS.Application",
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AccionistaEmpresa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AcrescimoCapitalMinimo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AcrescimoPremios]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Actividade]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ActividadeContratada]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ActividadePlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ActividadesAgenda]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Agenda]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AgendaPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Agravamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AgravamentoAcidentesTrabalho]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AgravamentoApolice]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AgravamentoDespesa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AgravamentoLimiteComparticipacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AgravamentoLinha]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AgravamentoPessoa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AgravamentoPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AjudaCampoTabela]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Ambito]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AmbitoPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AnexosAutomovel]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AnexosPessoa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Animais]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Anos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Apolice]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Aprovacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Area]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AreaGeograficaCobertura]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Artigo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AscensoresMontaCarga]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Assinantes]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AssinantesResseguro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Assinatura]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AtosMedicos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Automovel]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AutoridadesContactadas]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AutoridadeSupervisao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Autorizacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Bairro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Balanco]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Balcao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[BalcaoPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Banco]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[BandeiraPagamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[BandeiraTipoCartao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[BemAfectado]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[BemSalvado]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Beneficiario]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[BeneficioCobertura]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[BoletimAdesaoSaude]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Bonus]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CAE]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CaePlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Caixa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cambio]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CanaisComissionamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Canal]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CanalComissionamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CanalComissionamentoProdutor]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CanalContratos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CanalDesconto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CanalMenu]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CanalPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CapitalPremioAutomovel]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CapitalSeguroAutomovel]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Capitulo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CaracteristicaAtutomovel]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CaracteristicaClassificacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CaracteristicaObjecto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CaracteristicasConstrucao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CaraterizacaoEventual]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Carencia]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cargo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CargoPublico]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CartaConducao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CartaoCredito]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CartaoPagamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CarteiraCliente]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CasoClassificacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CasosInconsideravelAcidentePessoal]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Categoria]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CategoriaFranquia]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CategoriaFuncao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CategoriaGlossario]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CategoriaItens]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CategoriaJustificacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CategoriaLaboral]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CategoriaMetricaKPI]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CategoriasProdutosInstalacoes]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CategoriaSujeitoDano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CategoriaTarefa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CausadorSinistro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CentroCusto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CentroResponsabilidade]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ChefeDepartamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ChefeSeccao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ChefeSector]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cidade]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CilindragemAutomovel]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CircunstanciaAutomovel]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CircunstanciaObjectoEnvolvido]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CircunstanciaPerda]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ClasseCofre]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ClasseConta]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ClasseModalidadeSeguro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ClasseRisco]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Classificacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ClassificacaoAprovacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ClassificacaoAscensoresMontaCarga]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ClassificacaoAutomovel]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ClassificacaoCaixa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ClassificacaoCasco]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ClassificacaoConta]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ClassificacaoContratoResseguro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ClassificacaoEntidade]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ClassificacaoGrupo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ClassificacaoImposto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ClassificacaoIncapacidade]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ClassificacaoIndustria]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ClassificacaoModalidadeCae]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ClassificacaoOperacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ClassificacaoParticipanteSinistro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ClassificacaoReclamacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ClassificacaoTipoCaso]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Clausula]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cliente]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cobertura]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CoberturaCosseguro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CoberturaPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CoberturaResseguro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CoberturaSelecionada]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cobrador]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CodigoResponsabilidade]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CoeficienteLimiteIndemnizacaoParto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CoeficienteLimiteIndemnizacaoProteseOrteses]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CoeficientePremioAdesao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CoeficientePremioDoencasPreExistentes]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CoeficientePremioLimiteIndemnizacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CoeficientePremioPessoas]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cofre]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Combustivel]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Comissao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ComissaoPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ComissaoResseguro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ComissaoSelecionada]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Comissionamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ComissionamentoPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Comite]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CompanhiaViagem]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CompetenciaArea]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ComponenteClassificacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ComponenteSalarialPessoa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Comuna]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CondicaoAgravamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CondicaoAplicacaoAgravamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CondicaoAplicacaoTarifa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CondicaoOperacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CondicaoTarifa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Condicoes]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CondicoesApolice]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CondicoesCoSeguro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CondicoesProduto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CondicoesReSeguro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ConjuguePessoa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ConsequenciaSinistro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Construcao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ConsumoPlafond]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ContaBancariaPOS]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Contacto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ContactoEmpresa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ContactoPessoa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ContadoresRegistos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ContaFinanceira]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ContaTerceiros]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Continente]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ContinentePlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Contratados]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ContratadosAssinantes]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ContratantesAssinantes]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Contrato]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ContratoCae]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ContratoCanais]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ContratoClausula]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ContratoFormaPagamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ContratoMoeda]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ContratoPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ContratoPrestadorEmpresa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ContratoResseguro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ContratoSegmentos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CoPagamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cor]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CoSeguro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cotacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CotacaoDependente]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CriterioComissionamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CriterioPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CrossSelling]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CrossSellingRate]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cursos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Custo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DeclaracaoTestemunha]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Deficiencia]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Denuncia]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Departamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Dependente]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DescaraterizacaoEventual]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Desconto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DescontoApoliceGrupo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DescontoApoliceGrupoPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DescontoFranquia]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DescontoFranquiaMedicamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DescontoLinha]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DescontoPessoa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DescontoPessoaPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DescontoPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DescontoSeleccionado]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DescontoTipoConta]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DescricaoBeneficioCobertura]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DescricaoTratamentoDentario]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Despesa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DespesaLinha]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DespesaPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DespesasCobertura]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DespesaSeleccionada]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DespesasTipoConta]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DestaquesPagina]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Desvalorizacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DesvalorizacaoInvalidezPermanente]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DesvalorizacaoPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DetalhePlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DiasContagem]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DimensaoConstrucao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DimensaoEmpresa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Direccao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DireccaoEmpresa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DireccaoEmpresaDepartamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DirectorDireccao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Distrito]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DocumentoIdentificacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DocumentoMembroAssegurado]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DocumentosAnexosApolice]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DocumentosAutomovel]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DocumentosCoberturas]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DocumentosLesado]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DocumentosLinha]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DocumentosNecessarioPorLinha]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DocumentosObjectoEnvolvido]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DocumentosObrigatorioPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DocumentosObrigatorioProduto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DocumentosTestemunha]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DuracaoPremiosAcidentesPessoaisTemporario]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DuracaoTipoContrato]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DuracaoTipoContratoPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[EmissoraDocumentos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Empresa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[EncargoLinha]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[EncargoPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Encargos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[EncargosTipoConta]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Endereco]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[EnderecoPessoa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[EnderecoPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[EntidadeEmpregadora]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[EspecieAnimais]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Estado]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[EstadoCivil]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[EstadoCivilPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Excedente]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Excepcoes]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ExcepcoesPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ExcessoPerda]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Exclusoes]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ExclusoesCobertura]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ExclusoesPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ExclusoesSelecionadaApolice]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ExclusoesSelecionadaLinhaProduto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ExclusoesSelecionadaPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ExemplarModeloAutomovel]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Exercicio]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ExportacoesProdutosInstalacoes]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[FactorRisco]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Faculdade]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[FaculdadeCurso]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[FacultativoResseguro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[FaixaEtaria]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[FaseDocumentosObrigatorio]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Feriado]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Fidelizacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[FidelizacaoComissionamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[FidelizacaoContrato]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[FidelizacaoPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Filiacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[FinalidadeApolice]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[FormaContratacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[FormaContratacaoPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[FormaEntrega]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[FormaLiquidacaoPremio]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[FormaLiquidacaoPremioPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[FormaMovimentoContaFinanceira]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[FormaPagamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[FormaPagamentoPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[FormaReparacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[FormaResseguro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[FormasCobranca]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[FormaTermino]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Fornecedor]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[FotografiasObjectoEnvolvido]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Fraccionamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[FraccionamentoPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Franquia]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[FranquiaInvalidezTemporaria]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[FranquiaSeleccionado]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Funcao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[FuncaoDependente]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Funcionalidade]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Funcionario]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[FuncionarioInstalacoes]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[GarantiaPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[GarantiasAfetasDespesasMedicas]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[GarantiasCobertura]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[GarantiasContratadas]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[GeneroPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Glossario]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[GPSAutomovel]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[GrauParentesco]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Grupo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[GrupoArea]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[GrupoEtario]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[GrupoImposto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[GrupoPessoas]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[HabilitacoesLiterarias]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[HabilitacoesLiterariasPessoa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[HablitacoesLiterariasPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[HistoricoAgravamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[HistoricoComissao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[HistoricoContadoresRegistos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[HistoricoDesconto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[HistoricoDespesa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[HistoricoEncargo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[HistoricoFranquia]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[HistoricoImposto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[HistoricoLogin]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[HistoricoMargemVendaProduto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[HistoricoOferta]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[HistoricoPadrao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[HistoricoPrecarioProduto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[HistoricoVerificacaoIdentidade]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[IdiomaPessoa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Idiomas]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ImagemProduto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ImagensConstrucao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Imposto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ImpostoLinha]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ImpostoPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ImpostoPrecario]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ImpostoTipoConta]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ImpostoTipoDocumentos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[IncapacidadePessoa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[IncapacidadeTemporaria]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Indeminizacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Indexador]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[IndiceCargaPneu]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[IndiceVelocidadePneu]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[InformacaoAdicional]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[InformacaoBancaria]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[InformacaoBancariaContrato]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[InformacaoBancariaPOS]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[InformacaoSuporte]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[InformacoesAdicionaisProduto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Infraccoes]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Instalacoes]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[InstitutoSuperior]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[IntervaloRecorrencia]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ItensExclusao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ItensPergunta]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Justificacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LadoVolante]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Lead]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Lembrete]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Lesado]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LesaoLesado]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Licenca]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LicencaModulo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LicencaModuloUser]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LimiteCobertura]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LimiteComissionamentoPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LimiteComissionamentoProdutor]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LimiteCompetencia]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LimiteGarantiaResponsabilidadeCivil]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LimiteResponsabilidade]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LimiteResponsablidadeCivilAutomovel]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LimitesAceitacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LimitesComissionamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LimitesRapel]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LinhaProduto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LinhaProdutoImposto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ListaNegra]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LocaisCobertura]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LocaisComissao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LocaisDesconto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LocaisEncargo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LocaisFranquia]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LocaisImposto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LocaisLimiteCompetencia]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LocaisObjectivosComerciais]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LocaisOferta]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LocalAplicacaoPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LocalConsulta]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LocalidadeAntena]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LocalizacaoInstalacoes]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LocalizacaoPneu]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LocalTrabalho]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LocalTrabalhoPessoa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[LugaresAutoAssegurar]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Mapa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[MarcaAutomovel]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[MarcaGPS]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[MargemVendaProduto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[MargemVendaSeleccionado]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[MediacaoComissao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Medicamentos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[MedicamentosPrestadores]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Medico]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[MeioAutorizacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[MeioTransporte]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[MembroAssegurado]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[MembroCAD]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[MembrosGrupo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Menu]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Meses]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[MetodoSistemaAquecimento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[MetricaKPI]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[MetricasProduto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ModalidadeAssegurar]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ModalidadeAtrasoViagem]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ModalidadeContratoNaoProporcional]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ModalidadeContratoProporcional]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ModalidadeReembolso]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ModalidadeSeguro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ModalidadesRCSelecionadas]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ModalidadesResponsabilidadeCivil]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ModeloAutomovel]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ModeloGPS]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ModeloMapa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Modificacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ModuloCore]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ModuloCoreDireccao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Moeda]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Morada]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[MotivoViagem]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Motorista]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[MotoristaAutomovel]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Movimento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[MovimentoHistorico]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[MovimentoPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Municipio]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[NacionalidadePessoa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[NacionalidadePessoaPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[NaturezaMovimento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Newsletter]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[NivelAbrangencia]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[NivelAcesso]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[NivelCompetencia]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[NivelDesempenho]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[NivelRisco]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[NivelRiscoCobertura]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Nota]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Notas]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[NumeroPessoasAbrangivel]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ObjectivoComercial]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ObjectivoPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ObjectivoProduto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ObjectivosArea]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ObjectivosComerciais]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ObjectoEnvolvido]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ObjectoSegurado]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ObjectoTrabalho]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ObjectoTrabalhoPessoa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ObrigacoesProduto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ObservacoesBoletimAdesao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[OfertaLinha]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[OfertaPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Opcao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Operacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[OperacaoPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[OperaccoesPagamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[OperacoesCRUD]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[OperacoesCRUDPessoa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[OperacoesPagamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[OperacoesRecebimento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[OrgaoRegularizador]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[OrigemFabricoEmbalagem]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[OutraSeguradoraContrato]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[OutrasInformacoesSinistro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[OutrosContratosApolice]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[OutrosSeguros]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Paciente]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PadraoRecorrencia]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Pais]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PaisesPlanoProduto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Papel]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PapelDesconto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PapelModuloFuncionalidade]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PapelModuloPessoa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PapelPessoa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PapelPessoaResseguro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PapelPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PapelProdutor]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Perda]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PerfilDesenvolvimento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PerfilDesenvolvimentoPessoa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Perguntas]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PerguntasFrequentesEmpresa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PerguntasFrequentesProduto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Periodo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PeriodoAnualImposto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PeriodoCalculo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PeriodoCoberturaProduto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PeriodoPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PeriodoPlanoPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Perspicacia]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PesoAutomovel]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Pessoa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PessoaContactoContratado]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PessoaContactoContratante]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PessoaMovimento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PessoaProfissao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PessoasAbrangidas]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PessoasPolitamenteExpostas]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PessoasPOS]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PessoaTarefa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PlanoComercialPorProdutor]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PlanoComissionamentoProdutor]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PlanoContas]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PlanoLimiteComissionamentoProdutor]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PlanoObjectivoComercial]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PlanoProduto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Pneu]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PontosClausula]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PortfolioProduto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[POS]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Posicao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Prazos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PrazosCurtos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PrecarioProduto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PrecosAtosMedicos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PrecosMedicamentos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PrecosProdutosFarmaceuticos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PreferenciaUsuario]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PrejuizoSofridoVeiculoTerceiro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Premios]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PremiosCoberturaAcidentesPessoais]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PremiosExploracaoRural]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PremiosMercadoriasNaoOrdinarias]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PremiosMinimos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PremiosProfissoesAgravamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PremiosRiscosSimples]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PremiosRiscosSimplesOrdinarios]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PressupostoAcidentePessoal]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PrestacoesFraccionamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Prestador]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PrestadorServico]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Prioridade]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PrioridadeTarefa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Processo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ProcessoFuncionalidade]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Produto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ProdutosEmpresa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ProdutosFarmaceuticos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ProdutosInstalacoes]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ProdutosPrestadores]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Profissao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ProfissaoPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Provincia]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ProvinciaComissionamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ProvinciaPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ProvinciasLimitesComissionamentoProdutor]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[QuadroDanos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[QualidadeProponente]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[QualidadeSegura]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Questionario]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[RamoQualidadeSegura]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[RapelProdutor]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Recibo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Reclamacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[RecorrenciaDiario]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[RecorrenciaMesAno]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[RecorrenciaSemanal]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[RedeSociais]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[RedeSocialPessoa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ReducaoPremioAcidentesTrabalho]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ReducoesAutorizadas]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ReembolsoDespesasMedicas]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ReembolsoTratamentoDentario]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Regiao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ReivindicacoesFeitasApolice]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Relatorio]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[RelatorioConta]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[RelatorioLinks]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[RelatorioPolicia]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[RelatorioProduto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[RendimentoPessoa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[RendimentosPessoa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[RenovacaoApolice]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Reparacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ReservasTecnicas]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Responsabilizado]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ResponsavelBalcao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ResponsavelObrigacoes]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[RespostaPergunta]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Resseguro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[RestricoesCategoriasCartaConducao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[RestricoesPessoaisCartaConducao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[RestricoesViaturaCartaConducao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Risco]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[RiscoOutraSeguradoraContrato]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[RiscoPlanoProduto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[RiscosExcluidos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Rua]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Saldo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Scoring]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Seccao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Sector]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SectorActividade]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SectorActividadeComissionamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SectorActividadePlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SectorActividadesProdutor]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SectorAtividadeEconomica]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SegmentoComissionamentoProdutor]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SegmentoFranquia]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SegmentoObjectivosComerciais]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SegmentoOferta]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SegmentoProduto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SegmentoProdutoPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SegmentoTipoCobertura]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Segurado]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Servico]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ServicoPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ServicosAdicionais]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ServicosBase]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SessaoImposto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Sexo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SexoPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Simulacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SimulacaoDependente]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Sinistrado]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Sinistro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[sinistrografico]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SistemaAquecimento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SistemaLiquidacaoSinistro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SituacaoEmprego]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Slide]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SobrePremioCoberturaAdicional]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SubCategoriaItens]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SubClasseModalidadeSeguro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SubClassificacaoContratoResseguro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SubClausulasPontos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SubFormaResseguro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SubFormaResseguroInformacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SubMenu]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SubPontoAmbito]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SubPontosClausula]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SubRamo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SubRisco]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SubscricaoCessaoRetencao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SubSector]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SubTarefa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SubTipoConta]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SubTipoDeRecebimento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SubTipoDesvalorizacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SubTipoPagamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SubTituloDesvalorizacaoInvalidezPermanente]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Sugestao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SYS_Auditoria]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Sys_EstadoLog]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Sys_Log]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[sysdiagrams]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TabuaAngm1940]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TabuaAngv2020P]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Tarefa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TarefaPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TarefaRecorrente]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TarefaReparacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TarefasActividade]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TarefasAgendamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Tarifa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TarifasAutomovel]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TarifasDanosProprios]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TarifasPremioAutoAcidentesTrabalho]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TarifasPremioAutoAT2]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TarifasResponsabilidadeCivil]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TaxaPremioFixoIndicNome]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Taxas]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TaxaSinistralidade]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Terceiro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TermoResponsabilidade]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[test]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Testemunha]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoAcompanhamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoActividade]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoAdesao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoAgravamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoApolice]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoAprovacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoArea]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoAutoridade]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoCaixa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoCartaConducao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoCartao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoCartaoPagamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoCasa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoCaso]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoCategoria]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoClasseConta]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoClassificacaoGrupo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoClassificacaoModalidadeCae]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoCliente]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoCobertura]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoCofre]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoCombustivel]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoComissao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoComissionamentoResseguro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoCondicoes]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoConstrucaoPneus]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoConsulta]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoConta]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoContacto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoContagem]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoContratacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoContrato]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoContratoEmpresa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoCorpo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoCosseguro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoDanos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoDeclaracao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoDeRecebimento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoDesconto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoDespesa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoDesvalorizacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoDocumentoIdentificacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoDocumentos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoEmbalagem]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoEmbarcacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoEmpresa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoEncargo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoEndereco]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoEntidade]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoEntidadePlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoEstabelecimentoComercio]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoExclusao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoFacturacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoFacturacaoPlanoProduto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoFacturamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoFranquia]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoGaragem]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoGrupo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoImagemProduto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoImposto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoIncapacidade]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoInfracao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoInstalacaoElectrica]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoInstalacoes]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoIntervencao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoJustificativoCativo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoLesao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoLevantamentoMedicamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoLimiteResponsabilidade]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoMargem]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoMaterialConstrucao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoMatricula]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoMotor]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoMovimento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoObjectivoComercial]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoObjectivoEstrategico]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoObjectivoProduto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoObjectoEnvolvido]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoObrigacoes]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoOferta]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoOperacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoOperacaoPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoOperacaoProcesso]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoOperacaoProcessoLimiteCompetencia]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoOrtesesProteses]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoOucupantes]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoPagamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoPagamentoMovimento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoParto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoPerda]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoPessoa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoPessoaPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoPintura]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoPlanoObjectivo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoPortfolioProduto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoPreferenciaUsuario]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoPremioFixo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoProdutor]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoPropriedade]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoProvisao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoQuadroDano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoQuestionario]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoRamoSeguro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoRecebimento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoRecebimentoMovimento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoRedeSociais]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoRegime]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoRelacaoSegurado]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoRendimento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoRenovacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoReseguro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoResseguro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoRisco]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Tipos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoSalaEspetaculo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoSanguineo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TiposContratosResseguro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TiposContratosResseguroInformacoesTiposContratosResseguro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TiposDocumentoProduto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoSector]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoSegmento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoSegmentoComissionamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoSegmentoContrato]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoSegmentoPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoSegmentosComissionamento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoSeguro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoSeguroGrupo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoServico]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoSinistro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoSociedade]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoSociedadePlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoSubDesembolso]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoSubsidioSalarial]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoSubTratado]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoSugestao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoTarefa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoTarefaReparacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoTarifa]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoTarifaPlanoProduto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoTarifasResponsabilidade]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoTaxas]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoTermino]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoTransferencia]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoTratadoReseguro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoUso]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoViaNotificacao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Titularidade]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Titulo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TituloDesvalorizacaoInvalidezPermanente]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Tomador]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Transferencia]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TransferenciaSeguro]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Transmissao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[UnidadeObjectoSegurado]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[UnidadesTempo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ValorCativo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ValorCobertura]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ValoresCapitalSeguroFamiliar]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ValoresTipoAntena]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ValorPadrao]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[VantagemPlano]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[VantagemProduto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Velocidade]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Viagem]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwContinente]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwMunicipio]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwPais]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwProvincia]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[VWPROVINCIA1]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Zona]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ZonaPeriodoCobertura]"
+      }
+   ],
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseSpatial": false
+}

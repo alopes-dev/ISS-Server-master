@@ -1,0 +1,23 @@
+#region Actions ( @--Model--@ )
+
+[HttpPost("@--Var--@")]
+public async Task<ApiResponse<@--Model--@>> Adicionar@--Model--@([FromBody]@--Model--@ model)
+  => await CreateAsync<@--Model--@>(model);
+
+[HttpGet("@--Var--@")]
+public async Task<ApiResponse<IEnumerable<@--Model--@>>> @--Model--@(string @--Var--@Id)
+  => await GetListAsync<@--Model--@>();                            
+
+[HttpGet("@--Var--@/{@--Var--@Id}")]
+public async Task<ApiResponse<@--Model--@>> @--Model--@(string @--Var--@Id)
+  => await GetAsync<@--Model--@>(@--Var--@Id);
+
+[HttpPut("@--Var--@/{@--Var--@Id}")]
+public async Task<ApiResponse<@--Model--@>> Atualizar@--Model--@(string @--Var--@Id, [FromBody]@--Model--@ model) 
+  => await UpdateAsync(model, @--Var--@Id); 
+
+[HttpDelete("@--Var--@/{@--Var--@Id}")]
+public async Task<ActionResult<ApiResponse<@--Model--@>>> Delete@--Model--@(string @--Var--@Id)
+  => await DeleteAsync<@--Model--@>(@--Var--@Id);
+
+#endregion

@@ -1,0 +1,31 @@
+using System.Linq;
+using GraphQL.Types;
+using ISS.Application.Models;
+using ISS.Application.Helpers;
+using ISS.GraphQL.ServiceExtentions;
+using ISS.Application.Dto;
+
+namespace ISS.GraphQL.Type
+{
+    public class @-Model-@Type @extends
+    {
+        public @-Model-@Type()
+        {
+            // Defining the name of the object
+            Name = "@-Var-@";
+
+            /*@Field@*/
+        }
+    }
+
+    public class @-Model-@InputType @extendInput
+	{
+		public @-Model-@InputType()
+		{
+			// Defining the name of the object
+			Name = "@-Var-@Input";
+			
+            /*@FieldInput@*/
+		}
+	}
+}
