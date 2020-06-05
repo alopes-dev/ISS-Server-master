@@ -1693,7 +1693,7 @@ namespace ISS.GraphQL.Calculo
                         Taxa = (double)fraccionamento.Taxa,
                         Fraccionamento = fraccionamento.Designacao,
                         FraccionamentoId = fraccionamento.IdFraccionamento,
-
+                        //
                         Ofertas = model.Ofertas / (double)fraccionamento.DivisorPremio,
                         Despesas = model.Despesas / (double)fraccionamento.DivisorPremio,
                         Impostos = model.Impostos / (double)fraccionamento.DivisorPremio,
