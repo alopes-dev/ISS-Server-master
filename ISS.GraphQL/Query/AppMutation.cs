@@ -204,7 +204,7 @@ namespace ISS.GraphQL.Query
                 // string[] valor = {marcas.Select(x => x.Marca).ToString(), models.Select(x => x.Modelo).ToString(), "CILINDRAGEM" };
                
                 // Read.CreatePanilha(@"D:\ter.xlsx", "teste", cabecalho,valor);
-                return "feito";
+                return "feito"; s
             });
             */
 
